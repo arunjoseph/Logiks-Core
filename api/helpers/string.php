@@ -83,7 +83,7 @@ if (!function_exists('singular')) {
 		return ucwords(preg_replace('/[_]+/', ' ', strtolower(trim($str))));
 	}
 
-   /*
+       /*
 	* @author Arun [arun@smartinfologiks.com]
 	*/
 	function byte_format($num, $precision = 1) {
